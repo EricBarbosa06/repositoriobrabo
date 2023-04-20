@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        /* Estilos para o cabeçalho */
+        header{
+            background-color: #c50c0c;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #logo {
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        #menu {
+            display: flex;
+            align-items: center;
+        }
+        #menu ul{
+            list-style: none;
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+    
+        }
+        #menu li{
+            margin: 0 10px;
+        
+        }
+        #menu a{
+            color: white;
+            text-decoration: none;
+        }
+        #menu a:hover{
+            text-decoration: underline;
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">Lojas Americanas - Cadastro </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Cartão Americanas</a></li>
+                <li><a href="Lista de casamento"></a></li>
+                <li><a href="#">Venda na Americanas</a></li>
+                <li<a href="#">Ajuda</a></li>
+            </ul>
+            </div>
+            
+    </header>
+    
+ <form>
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <labe for="dataNasc">Data de nascimento:</labe>
+        <input type="date" id="dataNasc" name="dataNasc"><br><br> 
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo"> 
+            <option value="feminino">Feminino</option>
+            <option value="masculino">Masculino</option>
+            <option value="naoBinario">Não-Binário</option>
+            <option value="outrxs">Outros</option>
+
+    </select><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="senha">Senha:</label>
+    <input type="senha" id="senha" name="senha"><br><br> 
+    <label for="endereço">Endereço:</label>
+    <input type="endereço" id="endereço" name="endereço"><br><br>
+    <label for="cpf">CPF:</label>
+    <input type="cpf" id="cpf" name="cpf"><br><br>
+    <input type="submit" value="Enviar"> 
+    </form>
+</body>
+</html>
